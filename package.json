@@ -1,0 +1,26 @@
+{
+  "name": "exercicio_ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html src/styles/*.scss src/scripts/*.js",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElsonMateusFE/exercicio_ajax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElsonMateusFE/exercicio_ajax/issues"
+  },
+  "homepage": "https://github.com/ElsonMateusFE/exercicio_ajax#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "sharp": "^0.31.3"
+  }
+}
